@@ -12,15 +12,19 @@ class MarkerSpawner(Node):
         self.declare_parameter('marker_height', 3.0)
         self.declare_parameter('separation_x', 1.0)
         self.declare_parameter('separation_y', 1.0)
+        self.declare_parameter('origin_offset_x', -2.0)
+        self.declare_parameter('origin_offset_y', -2.0)
         self.declare_parameter('rows', 5)
         self.declare_parameter('cols', 5)
         self.declare_parameter('start_id', 0)
-        self.declare_parameter('world_name', 'default')
+        self.declare_parameter('world_name', 'world_model')
 
         self.marker_size = self.get_parameter('marker_size').value
         self.marker_height = self.get_parameter('marker_height').value
         self.sep_x = self.get_parameter('separation_x').value
         self.sep_y = self.get_parameter('separation_y').value
+        self.origin_offset_x = self.get_parameter('origin_offset_x').value
+        self.origin_offset_y = self.get_parameter('origin_offset_y').value
         self.rows = self.get_parameter('rows').value
         self.cols = self.get_parameter('cols').value
         self.start_id = self.get_parameter('start_id').value
@@ -50,8 +54,8 @@ class MarkerSpawner(Node):
                 with open(temp_sdf_path, 'w') as f:
                     f.write(marker_sdf)
 
-                x = float(c * self.sep_x)
-                y = float(r * self.sep_y)
+                x = float(c * self.sep_x) + self.origin_offset_x
+                y = float(r * self.sep_y) + self.origin_offset_y
                 z = float(self.marker_height)
                 
                 # Pose: (x, y, z, Roll, Pitch, Yaw)

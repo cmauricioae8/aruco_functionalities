@@ -15,7 +15,7 @@
           <specular>0.5 0.5 0.5 1</specular>
           <pbr>
             <metal>
-              <albedo_map>model://markers_cluster_gz/models/marker/materials/textures/marker_ID.png</albedo_map>
+              <albedo_map>file:///home/mau/colcon_ws/src/aruco_functionalities/markers_cluster_gz/models/marker/materials/textures/7x7Marker_ID.png</albedo_map>
             </metal>
           </pbr>
         </material>

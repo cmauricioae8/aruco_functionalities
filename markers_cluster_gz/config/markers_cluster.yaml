@@ -1,10 +1,11 @@
-markers_cluster_gz_node:
+marker_spawner:
   ros__parameters:
     marker_size: 0.2
     marker_height: 3.0
     separation_x: 1.0
     separation_y: 1.0
+    origin_offset_x: -2.0
+    origin_offset_y: -2.0
     rows: 5
     cols: 5
     start_id: 0
-    dictionary_path: "/home/mau/colcon_ws/src/aruco_functionalities/aruco_markers/dict_7x7_1000"

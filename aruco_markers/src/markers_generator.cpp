@@ -18,7 +18,7 @@
 #include <cstdlib>
 #include <string>
 
-int last_marker_id = 5; // markers will be generating starting from 0 to last_marker_id
+int last_marker_id = 25; // markers will be generating starting from 0 to last_marker_id
 
 using namespace std;
 using namespace cv;
