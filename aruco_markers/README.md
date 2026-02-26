@@ -24,6 +24,9 @@ make
 cp ../dummy_calibration_values.txt calibration_values.txt
 ```
 
+To automatic build tests, run 'build_tests.sh' at 'aruco_markers' directory.
+
+
 ## Tools Overview
 
 All tools support command-line arguments via `cv::CommandLineParser`. Use the `--help` flag with any executable to see available options.
