@@ -32,6 +32,8 @@ All tools support command-line arguments via `cv::CommandLineParser`. Use the `-
 Generates ArUco markers from a predefined dictionary and saves them as image files.
 - **Key Parameters**: last_marker_id, dictionary type, etc.
 
+**NOTE:** The markers MUST be printed on a white background, or at least a white border. 'dict_7x7_1000' folder contains a few examples of the markers.
+
 ### 2. Camera Calibration (`camera_calibration`)
 Calculates the camera's intrinsic parameters and distortion coefficients using a chessboard pattern.
 - **Key Parameters**:
@@ -40,6 +42,8 @@ Calculates the camera's intrinsic parameters and distortion coefficients using a
   - `-ny`: Number of internal corners vertically.
   - `-ci`: Camera index.
 - **Output**: Saves `calibration_values.txt` in the build directory.
+
+**NOTE:** The chessboard MUST be printed on a white background, or at least a white border.
 
 ### 3. ArUco Detector (`aruco_detector`)
 Detects markers from the `DICT_7X7_1000` dictionary in real-time.
@@ -54,6 +58,27 @@ Performs 3D pose estimation and draws a wireframe cube over the **largest detect
   - `-l` : Marker length (meters).
   - `-ci`: Camera index.
 - **Features**: Displays real-time XYZ position and orientation (Roll, Pitch, Yaw) for the largest marker.
+
+### 5. Markers Cluster Spawner (`markers_cluster_gz`)
+A ROS 2 package to spawn a grid of ArUco markers on a ceiling in **Gazebo Simulator (formerly Ignition)**.
+
+- **Features**: 
+  - Parameterizable grid (rows, cols, separation, height, size) via YAML.
+  - Automatically assigns ArUcoTextures to each marker.
+- **Usage (Gazebo Sim)**:
+  1. Build the package:
+     ```bash
+     colcon build --packages-select markers_cluster_gz --base-paths .
+     ```
+  2. Start Gazebo Sim:
+     ```bash
+     ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="empty.sdf"
+     ```
+  3. Launch the spawner:
+     ```bash
+     source install/setup.bash
+     ros2 launch markers_cluster_gz markers_cluster.launch.py
+     ```
 
 ## License
 

@@ -1,0 +1,1414 @@
+material ArucoMarker/ID_0
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_0.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_1.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_2.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_3.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_4.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_5
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_5.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_6
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_6.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_7
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_7.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_8
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_8.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_9
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_9.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_10
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_10.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_11
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_11.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_12
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_12.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_13
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_13.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_14
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_14.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_15
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_15.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_16
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_16.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_17
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_17.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_18
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_18.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_19
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_19.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_20
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_20.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_21
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_21.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_22
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_22.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_23
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_23.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_24
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_24.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_25
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_25.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_26
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_26.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_27
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_27.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_28
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_28.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_29
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_29.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_30
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_30.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_31
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_31.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_32
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_32.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_33
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_33.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_34
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_34.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_35
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_35.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_36
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_36.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_37
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_37.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_38
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_38.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_39
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_39.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_40
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_40.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_41
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_41.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_42
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_42.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_43
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_43.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_44
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_44.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_45
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_45.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_46
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_46.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_47
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_47.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_48
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_48.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_49
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_49.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_50
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_50.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_51
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_51.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_52
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_52.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_53
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_53.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_54
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_54.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_55
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_55.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_56
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_56.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_57
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_57.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_58
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_58.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_59
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_59.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_60
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_60.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_61
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_61.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_62
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_62.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_63
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_63.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_64
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_64.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_65
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_65.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_66
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_66.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_67
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_67.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_68
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_68.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_69
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_69.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_70
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_70.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_71
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_71.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_72
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_72.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_73
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_73.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_74
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_74.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_75
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_75.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_76
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_76.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_77
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_77.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_78
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_78.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_79
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_79.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_80
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_80.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_81
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_81.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_82
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_82.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_83
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_83.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_84
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_84.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_85
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_85.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_86
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_86.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_87
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_87.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_88
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_88.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_89
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_89.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_90
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_90.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_91
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_91.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_92
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_92.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_93
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_93.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_94
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_94.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_95
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_95.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_96
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_96.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_97
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_97.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_98
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_98.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_99
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_99.png
+      }
+    }
+  }
+}
+
+material ArucoMarker/ID_100
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker_100.png
+      }
+    }
+  }
+}
+
