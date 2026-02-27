@@ -9,7 +9,7 @@ class MarkerSpawner(Node):
     def __init__(self):
         super().__init__('marker_spawner')
         self.declare_parameter('marker_size', 0.2)
-        self.declare_parameter('marker_height', 3.0)
+        self.declare_parameter('ceiling_height', 3.0)
         self.declare_parameter('separation_x', 1.0)
         self.declare_parameter('separation_y', 1.0)
         self.declare_parameter('origin_offset_x', -2.0)
@@ -20,7 +20,7 @@ class MarkerSpawner(Node):
         self.declare_parameter('world_name', 'world_model')
 
         self.marker_size = self.get_parameter('marker_size').value
-        self.marker_height = self.get_parameter('marker_height').value
+        self.ceiling_height = self.get_parameter('ceiling_height').value
         self.sep_x = self.get_parameter('separation_x').value
         self.sep_y = self.get_parameter('separation_y').value
         self.origin_offset_x = self.get_parameter('origin_offset_x').value
@@ -56,7 +56,7 @@ class MarkerSpawner(Node):
 
                 x = float(c * self.sep_x) + self.origin_offset_x
                 y = float(r * self.sep_y) + self.origin_offset_y
-                z = float(self.marker_height)
+                z = float(self.ceiling_height)
                 
                 # Pose: (x, y, z, Roll, Pitch, Yaw)
                 # Gazebo Sim create command uses -x -y -z -R -P -Y
