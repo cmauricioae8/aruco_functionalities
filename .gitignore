@@ -1,5 +1,7 @@
 .vscode/
 build/
+install/
+log/
 *.pyc
 __pycache__/
 #find . -name "__pycache__" -type d -print0 | xargs -0 rm -rf
