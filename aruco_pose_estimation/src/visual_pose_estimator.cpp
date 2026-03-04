@@ -8,11 +8,7 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/aruco.hpp>
 #include <tf2/LinearMath/Quaternion.h>
-#include <tf2/LinearMath/Matrix3x3.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
-#include <tf2_ros/transform_broadcaster.h>
-#include <tf2_ros/buffer.h>
-#include <tf2_ros/transform_listener.h>
 #include <vector>
 #include <map>
 #include <string>
@@ -26,6 +22,7 @@ public:
         this->declare_parameter("image_topic", "/camera/image_raw");
         this->declare_parameter("camera_info_topic", "/camera/camera_info");
         this->declare_parameter("camera_port", -1); // -1 means disabled, use topic
+        this->declare_parameter("x_offset_c_b", 0.0);
         this->declare_parameter("marker_size", 0.2);
         this->declare_parameter("ceiling_height", 3.0);
         this->declare_parameter("separation_x", 2.0);
@@ -48,6 +45,7 @@ public:
         image_topic_ = this->get_parameter("image_topic").as_string();
         camera_info_topic_ = this->get_parameter("camera_info_topic").as_string();
         camera_port_ = this->get_parameter("camera_port").as_int();
+        x_offset_c_b_ = this->get_parameter("x_offset_c_b").as_double();
         marker_size_ = this->get_parameter("marker_size").as_double();
         ceiling_height_ = this->get_parameter("ceiling_height").as_double();
         sep_x_ = this->get_parameter("separation_x").as_double();
@@ -253,7 +251,7 @@ private:
             // So far, T_c_m with Z_th correct
 
             // Consider offset between camera and base_footprint (assuming 90° rotation from b to c)
-            double x_b_m = -tvecs[i][1]; // offset c_b
+            double x_b_m = -tvecs[i][1] + x_offset_c_b_;
             double y_b_m = tvecs[i][0]; 
 
             double th_b_m_aux = th_c_m - M_PI_2; 
@@ -301,7 +299,7 @@ private:
     int camera_port_;
     double marker_size_;
     double ceiling_height_;
-    double sep_x_, sep_y_, off_x_, off_y_;
+    double sep_x_, sep_y_, off_x_, off_y_, x_offset_c_b_;
     int rows_, cols_, start_id_;
     double frequency_;
     bool debug_;

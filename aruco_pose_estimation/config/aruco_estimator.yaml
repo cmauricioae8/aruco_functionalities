@@ -1,6 +1,7 @@
 visual_pose_estimator:
   ros__parameters:
     camera_port: -1 #-1 means disabled, use topic
+    x_offset_c_b: -0.3 # X offset of up camera with respect to base_footprint frame
     image_topic: "/camera/image_raw"
     camera_info_topic: "/camera/camera_info"
     marker_size: 0.2
@@ -16,6 +17,6 @@ visual_pose_estimator:
     world_frame: "odom" # To fill robot pose estimation
     frequency: 10.0 # When camera_port >= 0
     debug: True
-    # Camera matrix (f=640, cx=320, cy=240)
+    # Real camera values, for simulation automatic detection is implemented (f=640, cx=320, cy=240)
     camera_matrix: [640.0, 0.0, 320.0, 0.0, 640.0, 240.0, 0.0, 0.0, 1.0]
     dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
