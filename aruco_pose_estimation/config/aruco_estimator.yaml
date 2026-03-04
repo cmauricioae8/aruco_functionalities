@@ -1,0 +1,17 @@
+visual_pose_estimator:
+  ros__parameters:
+    camera_port: -1 #-1 means disabled, use topic
+    image_topic: "/camera/image_raw"
+    marker_size: 0.2
+    ceiling_height: 3.0
+    separation_x: 2.0
+    separation_y: 2.0
+    origin_offset_x: -2.0
+    origin_offset_y: -2.0
+    rows: 5
+    cols: 5
+    start_id: 0
+    frequency: 10.0 # When camera_port >= 0
+    # Camera matrix (f=640, cx=320, cy=240)
+    camera_matrix: [530.469, 0.0, 320.0, 0.0, 530.469, 240.0, 0.0, 0.0, 1.0]
+    dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]

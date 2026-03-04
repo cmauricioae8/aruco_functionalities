@@ -70,7 +70,7 @@ class MarkerSpawner(Node):
                     '-z', str(z),
                     '-R', '0.0',
                     '-P', '3.14159',
-                    '-Y', '0.0',
+                    '-Y', '3.14159', #0.0
                     '--world', self.world_name
                 ]
 
