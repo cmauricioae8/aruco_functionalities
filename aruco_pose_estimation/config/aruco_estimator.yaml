@@ -20,3 +20,8 @@ visual_pose_estimator:
     # Real camera values, for simulation automatic detection is implemented (f=640, cx=320, cy=240)
     camera_matrix: [640.0, 0.0, 320.0, 0.0, 640.0, 240.0, 0.0, 0.0, 1.0]
     dist_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+marker_pose_corrector:
+  ros__parameters:
+    distance_tolerance: 0.9 # meters
+    orientation_tolerance: 0.6 # radians

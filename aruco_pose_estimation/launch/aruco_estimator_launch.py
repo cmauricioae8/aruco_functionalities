@@ -5,10 +5,17 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_share = get_package_share_directory('aruco_pose_estimation')
-    # We can also reference the markers_cluster_gz config if needed, 
-    # but the user asked for these parameters in THIS node.
-    # I'll create a default config file in this package too.
     config_file = os.path.join(pkg_share, 'config', 'aruco_estimator.yaml')
+    # This yaml file should be used when simulating with gz sim
+    # TODO: Create a yaml file for real robot simulation
+
+    marker_pose_corrector_node = Node(
+        package='aruco_pose_estimation',
+        executable='marker_pose_corrector',
+        name='marker_pose_corrector',
+        output='screen',
+        parameters=[config_file]
+    )
 
     return LaunchDescription([
         Node(
@@ -17,5 +24,6 @@ def generate_launch_description():
             name='visual_pose_estimator',
             output='screen',
             parameters=[config_file]
-        )
+        ),
+        marker_pose_corrector_node
     ])

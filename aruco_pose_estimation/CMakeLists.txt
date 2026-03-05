@@ -37,8 +37,12 @@ add_executable(visual_pose_estimator src/visual_pose_estimator.cpp)
 ament_target_dependencies(visual_pose_estimator ${dependencies})
 target_link_libraries(visual_pose_estimator ${OpenCV_LIBRARIES})
 
+add_executable(marker_pose_corrector src/marker_pose_corrector.cpp)
+ament_target_dependencies(marker_pose_corrector ${dependencies})
+
 install(TARGETS 
   visual_pose_estimator
+  marker_pose_corrector
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch config

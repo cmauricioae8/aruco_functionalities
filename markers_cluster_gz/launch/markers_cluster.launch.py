@@ -7,7 +7,10 @@ from launch.actions import SetEnvironmentVariable, DeclareLaunchArgument
 
 def generate_launch_description():
     pkg_share = get_package_share_directory('markers_cluster_gz')
-    config_path = os.path.join(pkg_share, 'config', 'markers_cluster.yaml')
+
+    # Get the config file from the aruco_pose_estimation package
+    pkg_share_aruco = get_package_share_directory('aruco_pose_estimation')
+    config_path = os.path.join(pkg_share_aruco, 'config', 'aruco_estimator.yaml')
 
     # Set ign sim resource path
     ign_resource_path = SetEnvironmentVariable(

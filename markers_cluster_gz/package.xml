@@ -11,6 +11,8 @@
   <depend>ros_gz_interfaces</depend>
   <depend>geometry_msgs</depend>
 
+  <exec_depend>aruco_pose_estimation</exec_depend><!-- To use the config.yaml file -->
+
   <export>
     <build_type>ament_python</build_type>
   </export>

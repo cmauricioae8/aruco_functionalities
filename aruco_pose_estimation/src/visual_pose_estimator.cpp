@@ -1,3 +1,13 @@
+/**
+ * @file visual_pose_estimator.cpp
+ * @brief ROS 2 node for robot pose estimation using ArUco markers.
+ * 
+ * This node detects ArUco markers from a camera feed (via topic or camera port)
+ * and estimates the robot's pose in the 'world' frame based on the known 
+ * positions of the markers. It publishes the estimated pose as a 
+ * geometry_msgs/msg/PoseStamped message, on topic 'visual_robot_pose'.
+ */
+
 #include <rclcpp/rclcpp.hpp>
 #include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <sensor_msgs/msg/image.hpp>

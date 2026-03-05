@@ -1,3 +1,4 @@
+# Template for the markers_cluster node
 marker_spawner:
   ros__parameters:
     marker_size: 0.2
